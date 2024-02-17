@@ -1,17 +1,13 @@
-//{ Driver Code Starts
+
 // Initial template for C++
 
-// #include <bits/stdc++.h>
-#include <iostream>
 #include <vector>
-#include <algorithm>
-// Include other necessary headers
-
+#include <iostream>
 using namespace std;
 
 
-// } Driver Code Ends
-// User function template for C++
+
+// Code for Geek for Geeks start here ...... 
 
 class Solution{
   public:
@@ -33,20 +29,22 @@ class Solution{
     }
 };
 
-//{ Driver Code Starts.
+// Code for Geek for Geeks ends here ...... 
+
+
+
+
+
+// Addition code to run file on Vscode starts here ..........
 
 int main() {
-    int t;
-    cin >> t;
-    while (t--) {
         int n;
+        cout << "Enter size of array : ";
         cin >> n;
-
+        cout << "Enter elements of array (seperated by space) : ";
         vector<int> array(n - 1);
         for (int i = 0; i < n - 1; ++i) cin >> array[i];
         Solution obj;
-        cout << obj.missingNumber(array, n) << "\n";
-    }
+        cout << "Ans : " <<obj.missingNumber(array, n) << "\n";
     return 0;
 }
-// } Driver Code Ends
