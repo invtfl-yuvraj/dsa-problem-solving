@@ -33,7 +33,9 @@ To use this solution:
 3. Run the compiled executable file.
 4. The program will prompt you to input the array for which you want to find the missing element.
 5. The program will output the missing element.
-6. Feel free to contribute improvements or alternative solutions by creating a pull request.
+
+
+###### Feel free to contribute improvements or alternative solutions by creating a pull request.
 
 
 
