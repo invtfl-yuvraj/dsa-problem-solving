@@ -12,7 +12,7 @@ A function F is defined as follows </br>
 F(n)= (1) +(2*3) + (4*5*6) ... upto n terms (look at the examples for better clarity). </br>
 Given an integer n, determine the F(n).
 
-- [Geek For Geeks - Recursive Sequence](#https://www.geeksforgeeks.org/problems/recursive-sequence1611/1?page=1&status=solved&sortBy=submissions)
+- Problem Reference: #https://www.geeksforgeeks.org/problems/recursive-sequence1611/1?page=1&status=solved&sortBy=submissions
 
 ### Example 1:
 #### Input:

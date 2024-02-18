@@ -5,7 +5,7 @@ This repository contains a solution to the "Missing number in array" problem fro
 
 # Problem Statement
 Given an array of size N-1 such that it only contains distinct integers in the range of 1 to N. Find the missing element.
-- [Geek For Geeks - Missing Number in array](#https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&sortBy=submissions)
+- Problem Reference: #https://www.geeksforgeeks.org/problems/missing-number-in-array1416/1?page=1&sortBy=submissions 
 
 ### Example 1:
 #### Input:

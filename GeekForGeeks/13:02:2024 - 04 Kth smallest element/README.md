@@ -12,7 +12,7 @@ Given an array arr[] and an integer K where K is smaller than the size of the ar
 </br>
 Note: l and r denote the starting and ending index of the array.
 
-- Problem Reference: #https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1?page=1&status=solved&sortBy=submissions
+- Problem Reference: https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1?page=1&status=solved&sortBy=submissions
 
 ### Example 1:
 #### Input:
