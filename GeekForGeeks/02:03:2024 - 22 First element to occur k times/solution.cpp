@@ -1,33 +1,27 @@
-/* The function should return the index of any
-   peak element present in the array */
+#include <vector>
+#include <iostream>
+using namespace std;
 
-// arr: input array
-// n: size of array
-class Solution
-{
+class Solution{
     public:
-    int peakElement(int arr[], int n)
+    int firstElementKTime(int n, int k, int a[])
     {
-       int peak = arr[0];
-       int index = 0;
-       int index2 =0;
-       
-       for (int i =1; i<n; i++){
-           if (peak<arr[i]){
-               peak = arr[i];
-               index2 = i;
-           }
-           else if (peak == arr[i]){
-               index = i;
-           }
-           
-       }
-       
-       if (index>index2){
-           return index;
-       }
-       else{
-           return index2;
-       }
+        
+        unordered_map<int, int> frequencyMap;
+
+        for (int i = 0; i < n; i++) {
+            
+            if (frequencyMap.find(a[i]) != frequencyMap.end()) {
+                frequencyMap[a[i]]++;
+            } else {
+                frequencyMap[a[i]] = 1;
+            }
+            
+            if (frequencyMap[a[i]] == k) {
+                return a[i];
+            }
+        }
+
+        return -1;
     }
 };
