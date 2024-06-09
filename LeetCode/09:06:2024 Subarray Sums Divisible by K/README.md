@@ -61,5 +61,5 @@ The solution to this problem can be implemented in the `solution.cpp` file inclu
 
 To use this solution:
 
-1. Implement the subarraysDivByK() function in your Python code.
+1. Implement the subarraysDivByK() function in your C++ code.
 2. Call the subarraysDivByK() function with the array nums and integer k as input to get the number of non-empty subarrays that have a sum divisible by k.
