@@ -1,0 +1,17 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+
+class Solution {
+  public:
+    int getMaximum(int N, vector<int> &arr) {
+        // code here
+        long long int sum = 0;
+        for(int i=0; i<N; i++)
+            sum += arr[i];
+            
+        while(N)
+            if(sum % N-- == 0)
+            return N + 1;
+    }
+};
